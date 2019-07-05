@@ -13,10 +13,12 @@
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 60px;
     background-image: -webkit-linear-gradient(90deg,#11bdbd,#b0e04e 60%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    letter-spacing: 3px;
 }
 
 .characters {
@@ -26,29 +28,25 @@
 .character-col {
     width: 50%;
     text-align: center;
-    padding: 20px;
+    padding: 20px 50px;
 }
 
 .character-col .img-wrapper {
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: center;
-    height: 400px;
+    height: 350px;
 }
 
 .character-col .character-heal {
     width: 100%;
     height: 30px;
     background-color: #ddd;
-    border: 1px solid #aaa;
-    border-radius: 4px;
-    padding: 1px;
 }
 
 .character-col .character-heal .character-heal-chart {
     height: 100%;
     background-color: green;
-    border-radius: 3px;
 }
 
 .character-col .character-heal .character-heal-figure {
