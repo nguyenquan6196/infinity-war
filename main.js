@@ -3,24 +3,22 @@ new Vue({
     data: {
         gameRunning: false,
         gameTitle: 'Infinity War',
-        player: [
+        characters: [
             {
                 name: 'Iron Man',
                 avatarUrl: './images/ironman.png',
+                role: 'player',
                 heal: 100
-            }
-        ],
-        enemy: [
+            },
             {
                 name: 'Thanos',
                 avatarUrl: './images/thanos.png',
+                role: 'enemy',
                 heal: 100
             }
         ]
     },
-    methods: {
-        attack: function () {
-            this.player.heal--;
-        }
+    method: {
+        
     }
 });
